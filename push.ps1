@@ -1,5 +1,4 @@
 ﻿#Requires -Version 5.0
-$ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding          = [System.Text.Encoding]::UTF8
 $Host.UI.RawUI.WindowTitle = "Bai-DesignSystem 一键推送"
