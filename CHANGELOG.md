@@ -19,4 +19,6 @@
 
 | 15:27 | `3d55fea` | docs | 加 README + CHANGELOG,为新会话留路标 |
 
+| 15:35 | `9c14261` | docs | README 重构,把 AI Quick Start 提到第二节 |
+
 <!-- 新条目追加在上面这条之后。一行一次 push,按时间正序。 -->
