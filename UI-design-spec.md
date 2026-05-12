@@ -1,4 +1,4 @@
-# UI版-设计规范
+# ui-design-spec
 
 > 目的：接入UI高保真资源，让AI调用项目资源，未来可实现与程序联动
 
@@ -96,9 +96,18 @@
 | ava-item-90 | 90px\*90px | 玩家头像尺寸，头像样式为方形 |
 | hero-item-110 | 110px\*110px | 游戏英雄、角色头像 |
 
+###### 卡牌尺寸
+
+| 分类 | 尺寸 | 使用说明 |
+| --- | --- | --- |
+| ava-card-m | 268\*375 | 卡片游戏，卡片常规尺寸 |
+| ava-card-l | 300\*420 | 卡片游戏，卡片大尺寸。卡牌内容不变，等比缩放。 |
+
 # 2 全局布局要求
 
-资源调用链接地址：[Figma](https://www.figma.com/design/XXFSnWpG7kd2xjXngvJaZG/%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F?node-id=0-1&t=Jr4JrlFY4igH8QTe-1)
+资源调用链接地址：[Figma](https://www.figma.com/design/XXFSnWpG7kd2xjXngvJaZG/%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F?node-id=0-1&t=Jr4JrlFY4igH8QTe-1)，
+
+优先使用能识别到的资源，如果发现没有可使用资源，生成纯色界面
 
 #### 2.1 界面
 
@@ -221,7 +230,7 @@
 | --- | --- | --- | --- |
 | ![item-medium-110.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bvDgkRpOBQ/img/5eddb1a2-852f-4f92-bec1-9f8d3f642938.png) | item-medium-110 | item-number | 包含道具数量（右下角） |
 
-##### 图标资源
+###### 图标资源
 
 | 样式 | 资源名称 | 交互说明 |
 | --- | --- | --- |
